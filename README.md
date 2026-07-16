@@ -1,25 +1,47 @@
 # Hi, I'm Nicolás 👋
 
-Software engineer from Uruguay building high-performance systems in Python, Numba and C#.
+Software engineer from Uruguay specializing in optimization, game theory and
+high-performance computing. I build systems where correctness and speed both
+matter — solver engines, trading platforms, and the infrastructure they run on.
 
-Interested in game theory, quantitative finance, optimization and self-hosted infrastructure.
+## Highlights
+
+- Built a **vector-form CFR engine for 5-card PLO** in Python + Numba: ranges of
+  2,598,960 combos collapsed losslessly into 134,459 suit-isomorphic classes,
+  chance-sampled traversals, linear-weighted averaging, O(n log n) showdown sweeps.
+- **Vectorized Monte Carlo equity estimation** with variance reduction and
+  honest error bars — statistical rigor treated as a feature, not an afterthought.
+- **Windows-native real-time trading platform** in C# / WPF (MVVM): exchange
+  connectivity, order management, risk controls, backtesting.
+- **Self-hosted Windows Server infrastructure**: IIS, TLS, reverse proxies,
+  CI/CD and automated deployments.
+- Research written up publicly at [gto-research](https://github.com/nicoseijas/gto-research).
 
 ## What I work on
 
-- **Poker solvers** — CFR-based GTO engines for 5-card PLO: vectorized regret minimization, hand abstraction and bucketing, Monte Carlo equity estimation with proper variance control. Python + Numba (`@njit`, `prange`).
-- **Trading systems** — real-time crypto trading platform: exchange connectivity, order management, risk controls and backtesting. C# / .NET (WPF, MVVM).
+- **Poker AI & game theory** — CFR / MCCFR, regret minimization, hand
+  abstraction and bucketing, equity estimation, large-scale simulation.
+  Python + Numba (`@njit`, `prange`), structure-of-arrays kernels.
+- **Quantitative trading** — real-time crypto trading systems: market
+  microstructure, execution, risk management, backtesting with realistic
+  costs. C# / .NET (WPF, MVVM).
 - **Web applications** — FastAPI + HTMX apps backed by PostgreSQL.
-- **Infrastructure** — self-hosted Windows Server environment: IIS, reverse proxies, TLS, CI/CD and deployment automation.
+- **Infrastructure** — self-hosted Windows Server environment: IIS, reverse
+  proxies, TLS, CI/CD and deployment automation.
 
-Most of my recent work is closed-source (client and NDA constraints), so I'm gradually publishing research notes, benchmarks and standalone tools extracted from it.
+Most of my recent work is closed-source (client and NDA constraints), so I'm
+gradually publishing research notes, benchmarks and standalone components
+extracted from it.
 
 ## Interests
 
-Game theory · Optimization · High-performance computing · Numerical methods · Algorithms · Quantitative finance · Low-level & systems programming
+Game theory · Optimization · High-performance computing · Numerical methods ·
+Algorithms · Quantitative finance · Low-level & systems programming
 
 ## Tech
 
-`Python` `Numba` `NumPy` `FastAPI` `C#` `.NET` `WPF` `PostgreSQL` `Docker` `Windows Server` `IIS` `HTMX`
+`Python` `Numba` `NumPy` `FastAPI` `DuckDB` `C#` `.NET` `WPF` `PostgreSQL`
+`Docker` `GitHub Actions` `Windows Server` `IIS` `HTMX`
 
 ## Selected public work
 
@@ -30,4 +52,3 @@ Game theory · Optimization · High-performance computing · Numerical methods �
 
 - 📫 nicoseijas@gmail.com
 - 🌎 Uruguay (GMT-3)
-
