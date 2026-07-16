@@ -29,3 +29,4 @@ Game theory · Optimization · High-performance computing · Numerical methods �
 
 - 📫 nicoseijas@gmail.com
 - 🌎 Uruguay (GMT-3)
+
