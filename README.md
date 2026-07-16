@@ -23,6 +23,7 @@ Game theory · Optimization · High-performance computing · Numerical methods �
 
 ## Selected public work
 
+- [gto-research](https://github.com/nicoseijas/gto-research) — research notes and benchmarks on CFR-based GTO poker solvers (5-card PLO)
 - [simple_pysql](https://github.com/nicoseijas/simple_pysql) — a simple but powerful CRUD SQL module for Python
 
 ## Contact
