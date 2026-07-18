@@ -45,6 +45,7 @@ Algorithms · Quantitative finance · Low-level & systems programming
 
 ## Selected public work
 
+- [numba-utils](https://github.com/nicoseijas/numba-utils) — a standard library for production Numba workloads: nopython-callable containers, algorithms and diagnostics
 - [gto-research](https://github.com/nicoseijas/gto-research) — research notes and benchmarks on CFR-based GTO poker solvers (5-card PLO)
 - [simple_pysql](https://github.com/nicoseijas/simple_pysql) — a simple but powerful CRUD SQL module for Python
 
