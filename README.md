@@ -15,6 +15,8 @@ matter — solver engines, trading platforms, and the infrastructure they run on
   connectivity, order management, risk controls, backtesting.
 - **Self-hosted Windows Server infrastructure**: IIS, TLS, reverse proxies,
   CI/CD and automated deployments.
+- Published [**Cachau**](https://pypi.org/project/cachau/) to PyPI — observable, bounded,
+  persistent function caching for NumPy/pandas/Numba workloads.
 - Research written up publicly at [gto-research](https://github.com/nicoseijas/gto-research).
 
 ## What I work on
@@ -45,6 +47,7 @@ Algorithms · Quantitative finance · Low-level & systems programming
 
 ## Selected public work
 
+- [Cachau](https://github.com/nicoseijas/Cachau) — observable, bounded, persistent function caching for Python data workloads (NumPy, pandas, Numba); [on PyPI](https://pypi.org/project/cachau/)
 - [numba-utils](https://github.com/nicoseijas/numba-utils) — a standard library for production Numba workloads: nopython-callable containers, algorithms and diagnostics
 - [gto-research](https://github.com/nicoseijas/gto-research) — research notes and benchmarks on CFR-based GTO poker solvers (5-card PLO)
 - [simple_pysql](https://github.com/nicoseijas/simple_pysql) — a simple but powerful CRUD SQL module for Python
