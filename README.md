@@ -20,6 +20,11 @@ platforms, and the infrastructure they run on.
   [gto-research](https://github.com/nicoseijas/gto-research).
 - **Vectorized Monte Carlo estimation** with variance reduction and honest error
   bars — statistical rigor treated as a feature, not an afterthought.
+- [**Rambla**](https://github.com/nicoseijas/RamblaState) — high-frequency
+  observable state for real-time .NET desktop apps (WPF / WinUI / Avalonia):
+  thread-safe writes, coalescing, batching and diagnostics for UI state that
+  changes faster than it renders. Source-generated, extracted from the trading
+  platform below.
 - **Windows-native real-time trading platform** in C# / WPF (MVVM): exchange
   connectivity, order management, risk controls, backtesting.
 - **Self-hosted Windows Server infrastructure**: IIS, TLS, reverse proxies,
@@ -57,6 +62,7 @@ Algorithms · Quantitative finance · Low-level & systems programming
 
 ## Selected public work
 
+- [Rambla](https://github.com/nicoseijas/RamblaState) — high-frequency observable state for real-time .NET desktop apps (WPF/WinUI/Avalonia): thread-safe writes, coalescing, batching and diagnostics
 - [numba-utils](https://github.com/nicoseijas/numba-utils) — a standard library for production Numba workloads: nopython-callable containers, algorithms and diagnostics
 - [Cachau](https://github.com/nicoseijas/Cachau) — observable, bounded, persistent function caching for Python data workloads (NumPy, pandas, Numba); [on PyPI](https://pypi.org/project/cachau/)
 - [gto-research](https://github.com/nicoseijas/gto-research) — CFR and equilibrium-computation research: notes, benchmarks and methodology, applied to 5-card PLO
